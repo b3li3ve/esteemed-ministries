@@ -1,0 +1,20 @@
+* {border: solid red 4px;}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}

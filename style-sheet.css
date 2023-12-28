@@ -1,5 +1,6 @@
 * {
     margin: 0;
+
 } 
 
 .top-bar {
@@ -24,4 +25,36 @@
     align-items: center;
     gap: 30px;
     padding-right: 100px;
+}
+
+.About {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    gap: 50px;
+    color: #f9faf8;
+    font-size: 18px; 
+    padding: 100px;
+}
+
+.Jamie {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    flex-shrink: 0;
+    padding: 10px;
+}
+
+.title {
+    font-size: 48px;
+    color: #f9faf8;
+
+}
+
+#bible {
+    display: flex;
+    flex-shrink: 0;
+    height: 100px;
+    width: 300px;
+    border: solid #f9faf8 5px;
 }

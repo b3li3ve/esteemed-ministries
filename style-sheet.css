@@ -1,6 +1,6 @@
 * {
     margin: 0;
-  
+    font-family: Arial, Helvetica, sans-serif;
 } 
 
 .top-bar {
@@ -37,7 +37,7 @@
     padding: 100px;
 }
 
-.Jamie {
+.cool {
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -103,4 +103,56 @@ img {
     align-items: center;
     text-align: center;
     padding-top: 20px;
+}
+
+.quote {
+    display: flex;
+    padding: 100px;
+    padding-bottom: 0px;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    background-color: #E5E7EB;
+}
+.quote-creds {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    background-color: #E5E7EB;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+    padding: 50px;
+    background: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+}
+
+.new-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.call {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.email {
+    height: auto;
+    width: 75px;
+    background-color: #3882f6;
+    border: solid 1px;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    border-radius: 5px;
 }
